@@ -1,210 +1,214 @@
 {
-    "name": "IGAC - Die internationale GAC",
-    "version": 1.0,
-    "type": "story",
-    "id": "abcd",
-    "tag": ["exclusive"],
-    "level":["easy"],
-    "license": "MIT",
-    "description": "",
-    "banner": "",
-    "credits": "",
-    "start_chapter": "0-intro",
-    "final_chapter": "4-demo",
-    "chapter":{
-        "0-intro":{
-            "name": "intro",
-            "description": "Technische Hinweise",
-            "title": "IGAC - Die internationale GAC",
-            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
-            "header": "Wichtige Hinweise zum Spiel",
-            "body": "{file:0-intro.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "0-prequel{label:Und es geht los...}"
-               },
-        "0-prequel":{
-            "name": "prequel",
-            "description": "first chapter prolog",
-            "title": "IGAC - Die internationale GAC",
-            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
-            "header": "Auf ins Abenteuer",
-            "body": "{file:0-prequel.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "1-airport{label:Unsere Reise beginnt}"
-        },
-        "1-airport":{
-            "name": "airport",
-            "description": "first chapter - airport",
-            "title": "IGAC - Die internationale GAC",
-            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
-            "header": "Am Flughafen angekommen...",
-            "body": "{file:1-airport.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "SHIPHOL001",
-            "points": {
-                "enter": 50,
-                "hints" : {
-                    "1": -1,
-                    "2": -1,
-                    "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "3-boarding{label:Zum Boarding}"
-        },
-        "3-boarding": {
-            "name": "boarding",
-            "description": "second chapter - boarding",
-            "title": "IGAC - Die internationale GAC",
-            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
-            "header": "Wo fliegen wir eigentlich hin",
-            "body": "{file:2-boarding.html}",
-            "timer": {
-                "show": true,
-                "delay": 0.5,
-                "init_sound": "2-mayday_zapsplat.mp3",
-                "tick_sound": "2-countdown_tick.mp3",
-                "tick_warning": 30,
-                "minutes": 15,
-                "next": "3a-flight-delayed"
-            },
-            "quest": "GPLUS0001",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": false
-            },
-            "next": "4-arrived-long{label:In Dubai angekommen}"
-        },
-        "3a-flight-delayed": {
-            "name": "delayed",
-            "description": "flight delayed",
-            "title": "IGAC - Die internationale GAC",
-            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
-            "header": "Warten, warten, warten...",
-            "body": "{file:3-flight-delayed.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": -10,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "4-arrived-short{label:In Dubai angekommen}"
-        },
-        "4-arrived-short": {
-            "name": "arrived",
-            "description": "short version",
-            "title": "IGAC - Die internationale GAC",
-            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
-            "header": "Angekommen – oder doch noch nicht",
-            "body": "{file:4-arrived.html}",
-            "timer": {
-                "minutes": 10,
-                "next": ""
-            },
-            "quest": "TRIDOKU001",
-            "points": {
-                "enter": 50,
-                "hints" : {
-                    "1": -1,
-                    "2": -1,
-                    "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": ""
-        },
-        "4-arrived-long": {
-            "name": "arrived",
-            "description": "long version",
-            "title": "IGAC - Die internationale GAC",
-            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
-            "header": "Angekommen – oder doch noch nicht",
-            "body": "{file:4-arrived.html}",
-            "timer": {
-                "minutes": 15,
-                "next": ""
-            },
-            "quest": "TRIDOKU001",
-            "points": {
-                "enter": 50,
-                "hints" : {
-                    "1": -1,
-                    "2": -1,
-                    "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": ""
-        },
-    }
+   "name":"IGAC - Die internationale GAC",
+   "version":1.0,
+   "type":"story",
+   "id":"abcd",
+   "tag":[
+      "exclusive"
+   ],
+   "level":[
+      "easy"
+   ],
+   "license":"MIT",
+   "description":"",
+   "banner":"",
+   "credits":"",
+   "start_chapter":"0-intro",
+   "final_chapter":"4-demo",
+   "chapter":{
+      "0-intro":{
+         "name":"intro",
+         "description":"Technische Hinweise",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Wichtige Hinweise zum Spiel",
+         "body":"{file:0-intro.html}",
+         "timer":{
+            "minutes":0,
+            "next":""
+         },
+         "quest":"",
+         "points":{
+            "enter":0,
+            "hints":{
+               "1":0,
+               "2":0,
+               "3":0
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":"0-prequel{label:Und es geht los...}"
+      },
+      "0-prequel":{
+         "name":"prequel",
+         "description":"first chapter prolog",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Auf ins Abenteuer",
+         "body":"{file:0-prequel.html}",
+         "timer":{
+            "minutes":0,
+            "next":""
+         },
+         "quest":"",
+         "points":{
+            "enter":0,
+            "hints":{
+               "1":0,
+               "2":0,
+               "3":0
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":"1-airport{label:Unsere Reise beginnt}"
+      },
+      "1-airport":{
+         "name":"airport",
+         "description":"first chapter - airport",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Am Flughafen angekommen...",
+         "body":"{file:1-airport.html}",
+         "timer":{
+            "minutes":0,
+            "next":""
+         },
+         "quest":"SHIPHOL001",
+         "points":{
+            "enter":50,
+            "hints":{
+               "1":-1,
+               "2":-1,
+               "3":-1
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":"3-boarding{label:Zum Boarding}"
+      },
+      "3-boarding":{
+         "name":"boarding",
+         "description":"second chapter - boarding",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Wo fliegen wir eigentlich hin",
+         "body":"{file:2-boarding.html}",
+         "timer":{
+            "show":true,
+            "delay":0.5,
+            "init_sound":"2-mayday_zapsplat.mp3",
+            "tick_sound":"2-countdown_tick.mp3",
+            "tick_warning":30,
+            "minutes":15,
+            "next":"3a-flight-delayed"
+         },
+         "quest":"GPLUS0001",
+         "points":{
+            "enter":0,
+            "hints":{
+               "1":0,
+               "2":0,
+               "3":0
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":false
+         },
+         "next":"4-arrived-long{label:In Dubai angekommen}"
+      },
+      "3a-flight-delayed":{
+         "name":"delayed",
+         "description":"flight delayed",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Warten, warten, warten...",
+         "body":"{file:3-flight-delayed.html}",
+         "timer":{
+            "minutes":0,
+            "next":""
+         },
+         "quest":"",
+         "points":{
+            "enter":-10,
+            "hints":{
+               "1":0,
+               "2":0,
+               "3":0
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":"4-arrived-short{label:In Dubai angekommen}"
+      },
+      "4-arrived-short":{
+         "name":"arrived",
+         "description":"short version",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Angekommen – oder doch noch nicht",
+         "body":"{file:4-arrived.html}",
+         "timer":{
+            "minutes":10,
+            "next":""
+         },
+         "quest":"TRIDOKU001",
+         "points":{
+            "enter":50,
+            "hints":{
+               "1":-1,
+               "2":-1,
+               "3":-1
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":""
+      },
+      "4-arrived-long":{
+         "name":"arrived",
+         "description":"long version",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Angekommen – oder doch noch nicht",
+         "body":"{file:4-arrived.html}",
+         "timer":{
+            "minutes":15,
+            "next":""
+         },
+         "quest":"TRIDOKU001",
+         "points":{
+            "enter":50,
+            "hints":{
+               "1":-1,
+               "2":-1,
+               "3":-1
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":""
+      }
+   }
 }
