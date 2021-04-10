@@ -1,5 +1,5 @@
 {
-    "name": "Flug KLM724",
+    "name": "IGAC - Die internationale GAC",
     "version": 1.0,
     "type": "story",
     "id": "abcd",
@@ -15,8 +15,8 @@
         "0-intro":{
             "name": "intro",
             "description": "Technische Hinweise",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
+            "title": "IGAC - Die internationale GAC",
+            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
             "header": "Wichtige Hinweise zum Spiel",
             "body": "{file:0-intro.html}",
             "timer": {
@@ -37,14 +37,14 @@
                 "trim": true,
                 "substring": true
             },
-            "next": "0-prequel{label:Eure Reise beginnt...}"
-        },
+            "next": "0-prequel{label:Und es geht los...}"
+               },
         "0-prequel":{
             "name": "prequel",
-            "description": "Die Vorbereitung",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Eine unverhoffte Einladung",
+            "description": "first chapter prolog",
+            "title": "IGAC - Die internationale GAC",
+            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
+            "header": "Auf ins Abenteuer",
             "body": "{file:0-prequel.html}",
             "timer": {
                 "minutes": 0,
@@ -64,42 +64,15 @@
                 "trim": true,
                 "substring": true
             },
-            "next": "0-prolog{label:Am Flughafen}"
+            "next": "1-airport{label:Unsere Reise beginnt}"
         },
-        "0-prolog":{
-            "name": "prolog",
-            "description": "First chapter - prolog",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Die Vorbereitung beginnt",
-            "body": "{file:0-prolog.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "1-gate{label:Zum Gate}"
-        },
-        "1-gate": {
-            "name": "am gate",
-            "description": "Erstes Kapitel",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Auf der Suche nach dem Gate",
-            "body": "{file:1-gate.html}",
+        "1-airport":{
+            "name": "airport",
+            "description": "first chapter - airport",
+            "title": "IGAC - Die internationale GAC",
+            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
+            "header": "Am Flughafen angekommen...",
+            "body": "{file:1-airport.html}",
             "timer": {
                 "minutes": 0,
                 "next": ""
@@ -118,15 +91,15 @@
                 "trim": true,
                 "substring": true
             },
-            "next": "relaxing-flight{label: Im Flugzeug}"
+            "next": "3-boarding{label:Zum Boarding}"
         },
-        "relaxing-flight": {
-            "name": "im flieger",
-            "description": "Der Flugzeugabsturz",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Endlich an Bord der Fliegers",
-            "body": "{file:2-relaxing-flight.html}",
+        "3-boarding": {
+            "name": "boarding",
+            "description": "second chapter - boarding",
+            "title": "IGAC - Die internationale GAC",
+            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
+            "header": "Wo fliegen wir eigentlich hin",
+            "body": "{file:2-boarding.html}",
             "timer": {
                 "show": true,
                 "delay": 0.5,
@@ -134,7 +107,7 @@
                 "tick_sound": "2-countdown_tick.mp3",
                 "tick_warning": 30,
                 "minutes": 15,
-                "next": "hard-landing"
+                "next": "3a-flight-delayed"
             },
             "quest": "GPLUS0001",
             "points": {
@@ -150,15 +123,15 @@
                 "trim": true,
                 "substring": false
             },
-            "next": "crash-site{label:Überlebenchance 3%?}"
+            "next": "4-arrived-long{label:In Dubai angekommen}"
         },
-        "crash-site": {
-            "name": "crash site",
-            "description": "bruchlandung",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Die Bruchlandung",
-            "body": "{file:3-crash-site.html}",
+        "3a-flight-delayed": {
+            "name": "delayed",
+            "description": "flight delayed",
+            "title": "IGAC - Die internationale GAC",
+            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
+            "header": "Warten, warten, warten...",
+            "body": "{file:3-flight-delayed.html}",
             "timer": {
                 "minutes": 0,
                 "next": ""
@@ -177,350 +150,26 @@
                 "trim": true,
                 "substring": true
             },
-            "next": "palms-shadow{label:Zur Oase}"
+            "next": "4-arrived-short{label:In Dubai angekommen}"
         },
-        "hard-landing": {
-            "name": "harte bruchlandung",
-            "description": "hard-landing",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Eine harte Bruchlandung",
-            "body": "{file:3-hard-landing.html}",
+        "4-arrived-short": {
+            "name": "arrived",
+            "description": "short version",
+            "title": "IGAC - Die internationale GAC",
+            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
+            "header": "Angekommen – oder doch noch nicht",
+            "body": "{file:4-arrived.html}",
             "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": -30,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "palms-shadow{label: Zur Oase}"
-        },
-        "palms-shadow": {
-            "name": "oase",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Die einsame Palme",
-            "body": "{file:4-palms-shadow.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "#junction:[{chapter:temple-site}{label:Zum Tempel},{chapter:bright-gangway}{label:In den hellen Gang}{precondition:temple-site},{chapter:desert-village}{label:Zum Dorf},{chapter:dark-tunnel}{label:In den Stollen}{precondition:desert-village}] => night-sky{label:Durch die Wüste}"
-        },
-        "temple-site": {
-            "name": "tempel",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Der Tempel",
-            "body": "{file:5-temple-site.html}",
-            "timer": {
-                "minutes": 0,
+                "minutes": 10,
                 "next": ""
             },
             "quest": "TRIDOKU001",
             "points": {
-                "enter": 0,
+                "enter": 50,
                 "hints" : {
                     "1": -1,
                     "2": -1,
                     "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "inner-temple{label: In den Tempel hineingehen}"
-        },
-        "inner-temple": {
-            "name": "im tempel",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Im Tempel",
-            "body": "{file:6-inner-temple.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 10,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "palms-shadow{label: Zurück zur Oase}"
-        },
-        "desert-village": {
-            "name": "dorf",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Im Dorf",
-            "body": "{file:5-village.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "VILLAGE001",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": -1,
-                    "2": -1,
-                    "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "to-the-tunnel{label:In den Tennel hineingehen}"
-        },
-        "to-the-tunnel": {
-            "name": "tunnel",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "In den Stollen",
-            "body": "{file:6-tunnel.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 10,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "palms-shadow{label:Zurück zur Oase}"
-        },
-        "bright-gangway": {
-            "name": "heller gang",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Der helle Gang",
-            "body": "{file:7-bright-gangway.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "MIRROR001",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": -1,
-                    "2": -1,
-                    "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "brighter-way{label:In den hellen Gang gehen}"
-        },
-        "brighter-way": {
-            "name": "nach dem hellen gang",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Nach dem hellen Gang",
-            "body": "{file:8-brighter-way.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 10,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "palms-shadow{label: Zurück zur Oase}"
-        },
-        "dark-tunnel": {
-            "name": "stollen",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Der Stollen",
-            "body": "{file:9-dark-tunnel.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "JAIL001",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": -1,
-                    "2": -1,
-                    "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "exit-this-way{label:Zum Ausgaben gehen}"
-        },
-        "exit-this-way": {
-            "name": "ausgang",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Der Ausgang",
-            "body": "{file:10-exit.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "KNIGHT001",
-            "points": {
-                "enter": 10,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "palms-shadow{label: Zurück zur Oase}"
-        },
-        "night-sky": {
-            "name": "abendhimmel",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Der Abendhimmel",
-            "body": "{file:11-night-sky.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "SUNDISC001",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": -1,
-                    "2": -1,
-                    "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "constellation{label:Weiter in Richtung Zivilisation}"
-        },
-        "constellation": {
-            "name": "sternenbilder",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Sternenbilder",
-            "body": "{file:12-constellation.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "STARSKY001",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": -1,
-                    "2": -1,
-                    "3": -1
-                }
-            },
-            "solution":{
-                "casesensitive": false,
-                "trim": true,
-                "substring": true
-            },
-            "next": "back-to-civilisation{label:Weiter in Richtung Zivilisation}"
-        },
-        "back-to-civilisation": {
-            "name": "civilisation",
-            "description": "",
-            "title": "Flug KLM427",
-            "subtitle": "Ein exklusives Exit Game im Auftrag von GD-AOL",
-            "header": "Zurück in Dubai",
-            "body": "{file:13-dubai.html}",
-            "timer": {
-                "minutes": 0,
-                "next": ""
-            },
-            "quest": "",
-            "points": {
-                "enter": 0,
-                "hints" : {
-                    "1": 0,
-                    "2": 0,
-                    "3": 0
                 }
             },
             "solution":{
@@ -529,6 +178,33 @@
                 "substring": true
             },
             "next": ""
-        }
+        },
+        "4-arrived-long": {
+            "name": "arrived",
+            "description": "long version",
+            "title": "IGAC - Die internationale GAC",
+            "subtitle": "Unser exklusives Exit Game für den ABC-Tag",
+            "header": "Angekommen – oder doch noch nicht",
+            "body": "{file:4-arrived.html}",
+            "timer": {
+                "minutes": 15,
+                "next": ""
+            },
+            "quest": "TRIDOKU001",
+            "points": {
+                "enter": 50,
+                "hints" : {
+                    "1": -1,
+                    "2": -1,
+                    "3": -1
+                }
+            },
+            "solution":{
+                "casesensitive": false,
+                "trim": true,
+                "substring": true
+            },
+            "next": ""
+        },
     }
 }
