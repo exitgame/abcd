@@ -110,7 +110,7 @@
             "init_sound":"2-mayday_zapsplat.mp3",
             "tick_sound":"2-countdown_tick.mp3",
             "tick_warning":30,
-            "minutes":15,
+            "minutes":1,
             "next":"3a-flight-delayed"
          },
          "quest":"GPLUS0001",
