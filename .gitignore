@@ -1,0 +1,5 @@
+# exclude everything except relevant folders and included files
+/
+! /event/**/
+! /story/**/
+! /quest/**/
