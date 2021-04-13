@@ -262,7 +262,7 @@
             "trim":true,
             "substring":true
          },
-         "next":"6-destination{label:Auf zur Lobby}"
+         "next":"7-lobby{label:Auf zur Lobby}"
       },
       "7-lobby":{
          "name":"lobby",
