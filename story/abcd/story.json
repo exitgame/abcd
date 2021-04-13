@@ -83,7 +83,7 @@
          },
          "quest":"SHIPHOL001",
          "points":{
-            "enter":50,
+            "enter":5,
             "hints":{
                "1":-1,
                "2":-1,
@@ -107,25 +107,25 @@
          "timer":{
             "show":true,
             "delay":0.5,
-            "init_sound":"2-mayday_zapsplat.mp3",
+            "init_sound":"zapsplat_transport_airplane_call_button_beep_17748.mp3",
             "tick_sound":"2-countdown_tick.mp3",
             "tick_warning":30,
-            "minutes":1,
+            "minutes":15,
             "next":"3a-flight-delayed"
          },
          "quest":"GPLUS0002",
          "points":{
-            "enter":0,
+            "enter":5,
             "hints":{
-               "1":0,
-               "2":0,
-               "3":0
+               "1":-1,
+               "2":-1,
+               "3":1
             }
          },
          "solution":{
             "casesensitive":false,
             "trim":true,
-            "substring":false
+            "substring":true
          },
          "next":"4-arrived-long{label:In Dubai angekommen}"
       },
@@ -142,7 +142,7 @@
          },
          "quest":"",
          "points":{
-            "enter":-10,
+            "enter":-2,
             "hints":{
                "1":0,
                "2":0,
