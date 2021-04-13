@@ -165,7 +165,7 @@
          "body":"{file:4-arrived.html}",
          "timer":{
             "minutes":10,
-            "next":""
+            "next":"5-beduine"
          },
          "quest":"TRIDOKU001",
          "points":{
@@ -263,6 +263,33 @@
             "substring":true
          },
          "next":"6-destination{label:Auf zur Lobby}"
+      },
+      "7-lobby":{
+         "name":"lobby",
+         "description":"game exit",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"In der Lobby",
+         "body":"{file:7-lobby.html}",
+         "timer":{
+            "minutes":0,
+            "next":""
+         },
+         "quest":"",
+         "points":{
+            "enter":0,
+            "hints":{
+               "1":0,
+               "2":0,
+               "3":0
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":""
       }
    }
 }
