@@ -7,7 +7,7 @@
     "license": "MIT",
     "name": "Tridoku Wall Riddle",
     "description": "",
-    "body": "<p>Ihr seht an der Wand zwei Gebilde aus Dreiecken mit ein paar Zahlen darin und den Schriftzug المدينة المنورة und . Die Oberfläche sieht bereits stark verwittert aus.</p><p>{image:wand.png}</p>",
+    "body": "<p>Ihr seht an der Wand zwei Gebilde aus Dreiecken mit ein paar Zahlen darin und den Schriftzug المدينة المنورة und . Die Oberfläche sieht bereits stark verwittert aus.</p><p>{image:Wand_final.png}</p>",
     "solution":"medina",
     "hints":{
         "1":{
