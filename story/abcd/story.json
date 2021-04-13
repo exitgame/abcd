@@ -192,7 +192,7 @@
          "body":"{file:4-arrived.html}",
          "timer":{
             "minutes":15,
-            "next":""
+            "next":"5-beduine"
          },
          "quest":"TRIDOKU001",
          "points":{
@@ -208,7 +208,34 @@
             "trim":true,
             "substring":true
          },
-         "next":""
+         "next":"5-beduine"
+      },
+         "5-beduine":{
+         "name":"the beduine",
+         "description":"a bus journey",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Der Beduine",
+         "body":"{file:5-beduine.html}",
+         "timer":{
+            "minutes":0,
+            "next":""
+         },
+         "quest":"KNIGHT001",
+         "points":{
+            "enter":50,
+            "hints":{
+               "1":-1,
+               "2":-1,
+               "3":-1
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":"5-beduine"
       }
    }
 }
