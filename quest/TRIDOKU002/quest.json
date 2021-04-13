@@ -1,0 +1,27 @@
+{
+    "id": "TRIDOKU002",
+    "type": "quest",
+    "version": 1.0,
+    "tag": ["text", "perspective"],
+    "level": ["intermediate"],
+    "license": "MIT",
+    "name": "Tridoku Wall Riddle",
+    "description": "",
+    "body": "<p>Ihr seht an der Wand zwei Gebilde aus Dreiecken mit ein paar Zahlen darin und den Schriftzug المدينة المنورة und . Die Oberfläche sieht bereits stark verwittert aus.</p><p>{image:wand.png}</p>",
+    "solution":"medina",
+    "hints":{
+        "1":{
+            "text":"Das Rätsel ist ein Sodoku-Rätsel: in jedem Dreieck müssen die Zahlen 1 bis 9 eingesetzt werden. In den Reihen waagerecht und Diagonal darf jede Ziffer maximal nur einmal vorkommen.",
+            "points":-1
+        },
+        "2":{
+            "text":"Die Ziffern der farbigen Dreiecke ergeben in der angegeben Reihenfolge das Lösungswort.",
+            "points":-1
+        },
+        "3":{
+            "text":"Das Lösungswort ergibt den Namen der 'Stadt des Propheten'.",
+            "points":-1
+        }
+
+    }
+}
