@@ -5,9 +5,9 @@
     "tag": ["text", "perspective"],
     "level": ["intermediate"],
     "license": "MIT",
-    "name": "Radiobeacon signal",
+    "name": "boarding code",
     "description": "",
-    "body": "<p>{image:radiobeacon.png}</p><p>Wie lautet der 7-stellige Code für die Ausrichtung am Funkfeuer?</p>",
+    "body": "<p>{image:radiobeacon.png}</p><p>Wie lautet der 7-stellige Code für den ihr für das Boarding braucht?</p>",
     "solution":"7938+77",
     "hints":{
         "1":{
@@ -15,7 +15,7 @@
             "points":-1
         },
         "2":{
-            "text":"Es fehlen zwei Ziffern, dei für das Ziel auf Google Plus repräsentativ sind.",
+            "text":"Es fehlen zwei Ziffern, die für das Ziel auf Google Plus repräsentativ sind.",
             "points":-1
         },
         "3":{
