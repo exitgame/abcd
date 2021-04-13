@@ -167,9 +167,9 @@
             "minutes":10,
             "next":"5-beduine"
          },
-         "quest":"TRIDOKU001",
+         "quest":"TRIDOKU002",
          "points":{
-            "enter":50,
+            "enter":5,
             "hints":{
                "1":-1,
                "2":-1,
@@ -191,12 +191,12 @@
          "header":"Angekommen – oder doch noch nicht",
          "body":"{file:4-arrived.html}",
          "timer":{
-            "minutes":15,
-            "next":"5-beduine"
+            "minutes":0,
+            "next":""
          },
          "quest":"TRIDOKU001",
          "points":{
-            "enter":50,
+            "enter":5,
             "hints":{
                "1":-1,
                "2":-1,
@@ -218,16 +218,43 @@
          "header":"Der Beduine",
          "body":"{file:5-beduine.html}",
          "timer":{
-            "minutes":0,
-            "next":""
+            "minutes":15,
+            "next":"5a-lost-in-traffic"
          },
          "quest":"KNIGHT001",
          "points":{
-            "enter":50,
+            "enter":5,
             "hints":{
                "1":-1,
                "2":-1,
                "3":-1
+            }
+         },
+         "solution":{
+            "casesensitive":false,
+            "trim":true,
+            "substring":true
+         },
+         "next":"6-destination{label:Jetzt schnell ins Hotel}"
+      },
+      "5a-lost-in-traffic":{
+         "name":"traffic",
+         "description":"long bus journey",
+         "title":"IGAC - Die internationale GAC",
+         "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
+         "header":"Im Berufsverkehr",
+         "body":"{file:5-beduine.html}",
+         "timer":{
+            "minutes":0,
+            "next":""
+         },
+         "quest":"",
+         "points":{
+            "enter":0,
+            "hints":{
+               "1":0,
+               "2":0,
+               "3":0
             }
          },
          "solution":{
@@ -250,7 +277,7 @@
          },
          "quest":"MIRROR001",
          "points":{
-            "enter":50,
+            "enter":5,
             "hints":{
                "1":-1,
                "2":-1,
