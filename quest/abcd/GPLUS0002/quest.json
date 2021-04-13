@@ -1,1 +1,27 @@
+{
+    "id": "GPLUS0002",
+    "type": "quest",
+    "version": 1.0,
+    "tag": ["text", "perspective"],
+    "level": ["intermediate"],
+    "license": "MIT",
+    "name": "Radiobeacon signal",
+    "description": "",
+    "body": "<p>{image:radiobeacon.png}</p><p>Wie lautet der 7-stellige Code für die Ausrichtung am Funkfeuer?</p>",
+    "solution":"7938+77",
+    "hints":{
+        "1":{
+            "text":"Für den vollständigen Code aus sieben Zeichen müssen zwei Ziffern errechnet werden.",
+            "points":-1
+        },
+        "2":{
+            "text":"Es fehlen zwei Ziffern, dei für das Ziel auf Google Plus repräsentativ sind.",
+            "points":-1
+        },
+        "3":{
+            "text":"Die fehlenden Ziffern ergeben sich aus der logischen Fortführung der Addition.",
+            "points":-1
+        }
 
+    }
+}
