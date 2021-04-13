@@ -289,7 +289,7 @@
             "trim":true,
             "substring":true
          },
-         "next":"7-lobby{label:Auf zur Lobby}"
+         "next":"#junction:[{chapter:5a-lost-in-traffic}{label:Zum Stau},{chapter:7-lobby{label:Auf zur Lobby}]"
       },
       "7-lobby":{
          "name":"lobby",
