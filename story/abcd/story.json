@@ -210,7 +210,7 @@
          },
          "next":"5-beduine{label:Auf zum Shuttlebus}"
       },
-         "5-beduine":{
+      "5-beduine":{
          "name":"the beduine",
          "description":"a bus journey",
          "title":"IGAC - Die internationale GAC",
@@ -237,7 +237,7 @@
          },
          "next":"6-destination{label:Jetzt schnell ins Hotel}"
       },
-         "6-destination":{
+      "6-destination":{
          "name":"destination",
          "description":"destination in sight",
          "title":"IGAC - Die internationale GAC",
