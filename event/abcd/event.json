@@ -1,5 +1,5 @@
 {
-    "name": "Flug KLM724 - Das ABC-Tag Ereignis",
+    "name": "Unsere Reise zur internationale GAC",
     "id": "A00000001",
     "type": "event",
     "version": 1.0,
@@ -11,8 +11,8 @@
     "level": "2",
     "license": "MIT",
     "banner": "abcd.png",
-    "title": "Flug KLM724 zum ABC-Tag",
-    "description": "Euer K\u00f6nnen als Aktuare ist international hoch angesehen. Doch mit der Einladung zu internationalen Konferenz IVSS beginnt die Herausforderung erst wirklich. Durch ein unerwartetes Ereignis verl\u00e4uft Eure Reiseplanung nicht wie gew\u00fcnscht und seht Euch mit der Rettung Eurer Mitreisenden und Kollegen konfrontiert.",
+    "title": "Unsere Reise zur internationale GAC",
+    "description": "Euer K\u00f6nnen als Agilisten ist international hoch angesehen. Doch mit der Einladung zu internationalen Konferenz beginnt die Herausforderung erst wirklich.",
     "registration": {
         "header": "Anmeldung erforderlich",
         "body": "<p>Die Anmeldung an diesem exklusiven Event ist nur f\u00fcr eingeladene Spieler m\u00f6glich. Spieler, die sich anmelden m\u00f6chten, geben bitte den in MS Teams angek\u00fcndigten <b>Teamcode</b> in das nachfolgende Feld ein.</p>Nach erfolgreicher Eingabe wird das Start-Kapitel der Geschichte aufgerufen...</p>"
