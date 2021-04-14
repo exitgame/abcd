@@ -5,6 +5,7 @@
     "tag": ["text", "perspective"],
     "level": ["intermediate"],
     "license": "MIT",
+    "language": "de",
     "name": "boarding code",
     "description": "",
     "body": "<p>{image:radiobeacon.png}</p><p>Wie lautet der 7-stellige Code für den ihr für das Boarding braucht?</p>",
