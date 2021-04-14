@@ -221,7 +221,7 @@
             "minutes":15,
             "next":"5a-lost-in-traffic"
          },
-         "quest":"KNIGHT001",
+         "quest":"KNIGHT002",
          "points":{
             "enter":5,
             "hints":{
@@ -275,7 +275,7 @@
             "minutes":0,
             "next":""
          },
-         "quest":"MIRROR001",
+         "quest":"MIRROR002",
          "points":{
             "enter":5,
             "hints":{
