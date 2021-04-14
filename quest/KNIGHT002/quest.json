@@ -1,0 +1,27 @@
+{
+    "id": "KNIGHT002",
+    "type": "quest",
+    "version": 1.0,
+    "tag": ["text", "perspective"],
+    "level": ["intermediate"],
+    "license": "MIT",
+    "name": "Knight",
+    "description": "",
+    "body": "<p>Ihr starrt auf den Zettel. Ein Pferd und ein scheinbares Wirr-Warr aus Worten. Was soll das nun wieder bedeuten?</p><p>{image:knight.png}</p>",
+    "solution":"Feuer und Flamme",
+    "hints":{
+        "1":{
+            "text":"Arabische Pferde waren auch beim Schach edle Tiere.",
+            "points":-1
+        },
+        "2":{
+            "text":"Folge den Feldern wie der Springer beim Schach: Zwei Felder vorwärts, ein Feld zur Seite.",
+            "points":-1
+        },
+        "3":{
+            "text":"Der Lösungssatz fängt an wie Folgt: Das Leben gleicht dem Feuer: Es beginnt ...",
+            "points":-1
+        }
+
+    }
+}
