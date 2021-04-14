@@ -1,0 +1,27 @@
+{
+    "id": "MIRROR002",
+    "type": "quest",
+    "version": 1.0,
+    "tag": ["text", "perspective"],
+    "level": ["intermediate"],
+    "license": "MIT",
+    "name": "Tridoku Wall Riddle",
+    "description": "",
+    "body": "<p>{image:reflection.png}</p><p>Es scheint als wären die Schriftzeichen ein Hinweis auf unseren Türcode. Kann das jemand lesen?</p>",
+    "solution":"12",
+    "hints":{
+        "1":{
+            "text":"Die Schrift ist nur mit einem Hilfsmittel zu lesen.",
+            "points":-1
+        },
+        "2":{
+            "text":"Die Schrift ist spiegelverkehrt geschrieben.",
+            "points":-1
+        },
+        "3":{
+            "text":"Die alte arabische Maßeinheit 'Aschir' gibt die ungefähre Anzahl an Litern an.",
+            "points":-1
+        }
+
+    }
+}
