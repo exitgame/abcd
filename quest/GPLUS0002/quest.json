@@ -16,13 +16,12 @@
             "points":-1
         },
         "2":{
-            "text":"Es fehlen zwei Ziffern, die für das Ziel auf Google Plus repräsentativ sind.",
+            "text":"Die fehlenden Ziffern ergeben sich aus der logischen Fortführung der Zahlen.",
             "points":-1
         },
         "3":{
-            "text":"Die fehlenden Ziffern ergeben sich aus der logischen Fortführung der Addition.",
+            "text":"Die fehlende Zahl errechnet sich aus der Addition mit 14.",
             "points":-1
         }
-
     }
 }
