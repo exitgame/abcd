@@ -69,7 +69,7 @@
             "trim":true,
             "substring":true
          },
-         "next":"1-airport{label:Unsere Reise beginnt}"
+         "next":"1-airport{label:Eure Reise beginnt jetzt!}"
       },
       "1-airport":{
          "name":"airport",
