@@ -1,0 +1,29 @@
+  
+{
+    "id": "SHIPHOL002",
+    "type": "quest",
+    "version": 1.0,
+    "tag": ["text", "perspective"],
+    "level": ["intermediate"],
+    "license": "MIT",
+    "name": "Airport Amsterdam Shiphol",
+    "language": "de",
+    "description": "Find the right departure gate for flight KLM427 to Dubai (DXB). The airplany is painted in the national flag colors.",
+    "solution":"C87",
+    "body": "<p>Auf den interaktiven Tafeln erkennt ihr eine Übersicht über das Flughafengebäude.</p><p>{image:display.png}</p><p>Ihr tretet an die Tafel heran und betätigt das Bedienfeld. Die Anzeige wechselt auf die Vogelperspektive des Flughafens.</p> <p>{image:airport.png}</p><p>Wie lautet die vollständige Bezeichnung des Gates für den Flug nach Dubai?</p>",
+    "hints":{
+        "1":{
+            "text":"Der Flieger sind in den Landesfarben angestrichen",
+            "points":-1
+        },
+        "2":{
+            "text":"Der Flieger steht im Gangway-Bereich C",
+            "points":-1
+        },
+        "3":{
+            "text":"Die Gates werden immer lesbar für die Piloten angegeben.",
+            "points":-1
+        }
+
+    }
+}
