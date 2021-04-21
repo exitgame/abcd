@@ -8,7 +8,7 @@
     "language": "de",
     "name": "Tridoku Wall Riddle",
     "description": "",
-    "body": "<p>{image:reflection.png}</p><p>Es scheint als wären die Schriftzeichen ein Hinweis auf unseren Türcode. Kann das jemand lesen?</p>",
+    "body": "<p>{image:reflection.png}</p><p>Es scheint als wären die Schriftzeichen ein Hinweis auf euren Türcode. Kann das jemand lesen?</p>",
     "solution":"12",
     "hints":{
         "1":{
