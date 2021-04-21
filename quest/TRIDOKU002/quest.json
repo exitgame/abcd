@@ -8,11 +8,11 @@
     "language": "de",
     "name": "Tridoku Wall Riddle",
     "description": "",
-    "body": "<p>Ihr seht an der Wand zwei Gebilde aus Dreiecken mit ein paar Zahlen darin und den Schriftzug المدينة المنورة und . Die Oberfläche sieht bereits stark verwittert aus.</p><p>{image:Wand_final.png}</p>",
+    "body": "<p>Ihr seht an der Wand zwei Gebilde aus Dreiecken mit ein paar Zahlen darin. Die Oberfläche sieht bereits stark verwittert aus.</p><p>{image:Wand_final.png}</p>",
     "solution":"medina",
     "hints":{
         "1":{
-            "text":"Das Rätsel ist ein Sodoku-Rätsel: in jedem Dreieck müssen die Zahlen 1 bis 9 eingesetzt werden. In den Reihen waagerecht und Diagonal darf jede Ziffer maximal nur einmal vorkommen.",
+            "text":"Das Rätsel ist ein Sodoku-Rätsel: in jedem Dreieck müssen die Zahlen 1 bis 9 eingesetzt werden. In den Reihen waagerecht und diagonal darf jede Ziffer nur einmal vorkommen.",
             "points":-1
         },
         "2":{
