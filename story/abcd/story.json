@@ -103,15 +103,15 @@
          "description":"second chapter - boarding",
          "title":"IGAC - Die internationale GAC",
          "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
-         "header":"Wo fliegen wir eigentlich hin",
+         "header":"Ein chaotisches Boarding",
          "body":"{file:2-boarding.html}",
          "timer":{
             "show":true,
             "delay":0.5,
-            "init_sound":"zapsplat_transport_airplane_call_button_beep_17748.mp3",
+            "init_sound":"2-countdown_tick.mp3",
             "tick_sound":"2-countdown_tick.mp3",
             "tick_warning":30,
-            "minutes":15,
+            "minutes":7,
             "next":"3a-flight-delayed"
          },
          "quest":"GPLUS0002",
