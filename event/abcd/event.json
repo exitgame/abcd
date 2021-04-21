@@ -28,10 +28,52 @@
             "to": "2022-12-31 00:00:00.000000",
             "deletable": false
         },
-        "ABCHAMPS": {
-            "name": "ABCD Organisation",
+        "MEDP": {
+            "name": "Meliá Desert Palm",
             "active": true,
-            "from": "2021-03-01 00:00:00.000000",
+            "from": "2021-04-28 00:00:00.000000",
+            "to": "2022-12-31 00:00:00.000000",
+            "deletable": false
+        },
+        "MIPL": {
+            "name": "Millennium Plaza",
+            "active": true,
+            "from": "2021-04-08 00:00:00.000000",
+            "to": "2022-12-31 00:00:00.000000",
+            "deletable": false
+        },
+        "ZAHO": {
+            "name": "Zabeel House",
+            "active": true,
+            "from": "2021-04-08 00:00:00.000000",
+            "to": "2022-12-31 00:00:00.000000",
+            "deletable": false
+        },
+        "RORA": {
+            "name": "Rose Rayhaan",
+            "active": true,
+            "from": "2021-04-08 00:00:00.000000",
+            "to": "2022-12-31 00:00:00.000000",
+            "deletable": false
+        },
+        "SHGR": {
+            "name": "Sheraton Grand",
+            "active": true,
+            "from": "2021-04-08 00:00:00.000000",
+            "to": "2022-12-31 00:00:00.000000",
+            "deletable": false
+        },
+        "WAAS": {
+            "name": "Waldorf Astoria",
+            "active": true,
+            "from": "2021-04-08 00:00:00.000000",
+            "to": "2022-12-31 00:00:00.000000",
+            "deletable": false
+        },
+        "PADO": {
+            "name": "Palace Downtown",
+            "active": true,
+            "from": "2021-04-08 00:00:00.000000",
             "to": "2022-12-31 00:00:00.000000",
             "deletable": false
         }
