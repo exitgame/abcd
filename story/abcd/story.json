@@ -107,10 +107,6 @@
          "body":"{file:2-boarding.html}",
          "timer":{
             "show":true,
-            "delay":0.5,
-            "init_sound":"2-countdown_tick.mp3",
-            "tick_sound":"2-countdown_tick.mp3",
-            "tick_warning":30,
             "minutes":7,
             "next":"3a-flight-delayed"
          },
@@ -166,11 +162,7 @@
          "body":"{file:4-arrived.html}",
          "timer":{
             "show":true,
-            "delay":0.5,
-            "init_sound":"2-countdown_tick.mp3",
-            "tick_sound":"2-countdown_tick.mp3",
-            "tick_warning":30,
-            "minutes":5,
+            "minutes":7,
             "next":"5-beduine"
          },
          "quest":"TRIDOKU002",
@@ -198,10 +190,6 @@
          "body":"{file:4-arrived.html}",
          "timer":{
             "show":true,
-            "delay":0.5,
-            "init_sound":"2-countdown_tick.mp3",
-            "tick_sound":"2-countdown_tick.mp3",
-            "tick_warning":30,
             "minutes":7,
             "next":"5-beduine"
          },
@@ -230,10 +218,6 @@
          "body":"{file:5-beduine.html}",
          "timer":{
             "show":true,
-            "delay":0.5,
-            "init_sound":"2-countdown_tick.mp3",
-            "tick_sound":"2-countdown_tick.mp3",
-            "tick_warning":30,
             "minutes":7,
             "next":"5a-lost-in-traffic"
          },
