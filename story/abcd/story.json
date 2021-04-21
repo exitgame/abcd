@@ -128,14 +128,14 @@
             "trim":true,
             "substring":true
          },
-         "next":"4-arrived-long{label:In Dubai angekommen}"
+         "next":"4-arrived-long{label:Auf nach Dubai}"
       },
       "3a-flight-delayed":{
          "name":"delayed",
          "description":"flight delayed",
          "title":"IGAC - Die internationale GAC",
          "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
-         "header":"Warten, warten, warten...",
+         "header":"Flug verpasst! Jetzt heißt es: Warten, warten, warten...",
          "body":"{file:3-flight-delayed.html}",
          "timer":{
             "minutes":0,
@@ -155,14 +155,14 @@
             "trim":true,
             "substring":true
          },
-         "next":"4-arrived-short{label:In Dubai angekommen}"
+         "next":"4-arrived-short{label:Auf nach Dubai}"
       },
       "4-arrived-short":{
          "name":"arrived",
          "description":"short version",
          "title":"IGAC - Die internationale GAC",
          "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
-         "header":"Angekommen – oder doch noch nicht",
+         "header":"In Dubai angekommen - doch wie geht es weiter?",
          "body":"{file:4-arrived.html}",
          "timer":{
             "show":true,
@@ -194,7 +194,7 @@
          "description":"long version",
          "title":"IGAC - Die internationale GAC",
          "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
-         "header":"Angekommen – oder doch noch nicht",
+         "header":"In Dubai angekommen - doch wie geht es weiter?",
          "body":"{file:4-arrived.html}",
          "timer":{
             "show":true,
@@ -258,7 +258,7 @@
          "description":"long bus journey",
          "title":"IGAC - Die internationale GAC",
          "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
-         "header":"Im Berufsverkehr",
+         "header":"Verzweiflung im Berufsverkehr",
          "body":"{file:5a-lost-in-traffic.html}",
          "timer":{
             "minutes":0,
@@ -312,7 +312,7 @@
          "description":"game exit",
          "title":"IGAC - Die internationale GAC",
          "subtitle":"Unser exklusives Exit Game für den ABC-Tag",
-         "header":"In der Lobby",
+         "header":"In der Lobby angekommen",
          "body":"{file:7-lobby.html}",
          "timer":{
             "minutes":0,
