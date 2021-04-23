@@ -287,7 +287,7 @@
          "solution":{
             "casesensitive":false,
             "trim":true,
-            "substring":true
+            "substring":false
          },
          "next":"7-lobby{label:Auf zur Lobby}"
       },
